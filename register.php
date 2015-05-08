@@ -19,7 +19,7 @@ if(isset($_POST['submit']))
 				{
 
 				$db = new mysqli( 'localhost', 'root', '', 'game' );
-				$query = mysqli_query($db, "INSERT INTO userdata VALUES ('','$nom','$email','$password','')");
+				$query = mysqli_query($db, "INSERT INTO userdata VALUES ('','$nom','$email','$password','','')");
                     require('config_sql.php');
                 $sql01= "SELECT id FROM userdata WHERE nom='$nom' AND email='$email' AND password='$password'";
                 if (!($result=$db-> query($sql01))){

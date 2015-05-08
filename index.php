@@ -5,7 +5,7 @@ if(isset($_POST['submit']))
 	$nom = htmlspecialchars(trim($_POST['nom']));
 	$password = htmlspecialchars(trim($_POST['password']));
 
-	if(empty($nom)) 
+	if(empty($nom))
 	{
 		echo "Veuiller remplir le champ";
 

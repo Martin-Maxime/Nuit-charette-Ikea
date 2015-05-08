@@ -4,7 +4,7 @@
 $host = 'localhost';
 $login = 'root';
 $pass = '';
-$db = 'GAME';
+$db = 'game';
 
 $db = new mysqli ($host,$login,$pass,$db);
 

@@ -1,0 +1,29 @@
+#owl-demo .owl-item div{
+  padding:5px;
+}
+#owl-demo .owl-item img{
+  display: block;
+  width: 100%;
+  height: auto;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.owl-buttons{
+	text-align: center;
+}
+
+.owl-next, .owl-prev {
+	width: 34px;
+	display: inline-block;
+	margin-top:-10px; 
+	cursor: pointer;
+}
+
+@media screen and (max-width: 667px){
+	.owl-next, .owl-prev{
+		width: 50px;
+	}	
+}
+
