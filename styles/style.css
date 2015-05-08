@@ -23,7 +23,7 @@
 
 @media screen and (max-width: 667px){
 	.owl-next, .owl-prev{
-		width: 50px;
-	}	
+		width: 100px;
+	}
 }
 
