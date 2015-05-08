@@ -1,29 +1,73 @@
+body{
+    background:url('../images/background.jpg') no-repeat;
+    background-size: 100%;
+}
+
+img.logo{
+    width:150px;
+    height:50px;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.logout{
+    float:right;
+    margin-right: 25px;
+    margin-top: 25px;
+    color:#ffcb01;
+    text-decoration: none;
+    border:1px solid #ffcb01;
+    padding:3px 3px 3px 3px;
+}
+
+.logout:hover{
+    border:1px solid #ffd944;
+    color:#ffd944;
+}
+
+img.billy{
+    width: 28%;
+    margin-left: 35%;
+}
+
+section h1{
+    color: #fff;
+    text-align: center;
+    font-size: 90px;
+    font-family: Arial;
+    font-weight: bold;
+    margin-top: -400px;
+}
+
+section{
+    margin-bottom: 100px;
+}
+
 #owl-demo .owl-item div{
-  padding:5px;
+    padding:5px;
 }
 #owl-demo .owl-item img{
-  display: block;
-  width: 100%;
-  height: auto;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
+    display: block;
+    width: 100%;
+    height: auto;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
 }
 
 .owl-buttons{
-	text-align: center;
+    text-align: center;
 }
 
 .owl-next, .owl-prev {
-	width: 34px;
-	display: inline-block;
-	margin-top:-10px; 
-	cursor: pointer;
+    width: 34px;
+    display: inline-block;
+    margin-top:-10px;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 667px){
-	.owl-next, .owl-prev{
-		width: 100px;
-	}
+    .owl-next, .owl-prev{
+        width: 100px;
+    }
 }
-

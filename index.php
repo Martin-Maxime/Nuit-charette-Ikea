@@ -62,7 +62,7 @@ if(isset($_POST['submit']))
 			<input type="submit" name="submit" value="se connecter">
 
 			</form>
- 
+
    		 </div>
    	</div>
 </body>
