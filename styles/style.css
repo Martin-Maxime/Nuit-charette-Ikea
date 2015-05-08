@@ -40,7 +40,7 @@ section h1{
 }
 
 section{
-    margin-bottom: 100px;
+    margin-bottom: 200px;
 }
 
 #owl-demo .owl-item div{
@@ -69,5 +69,24 @@ section{
 @media screen and (max-width: 667px){
     .owl-next, .owl-prev{
         width: 100px;
+    }
+    img.logo{
+        width:75px;
+        height: 30px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .logout{
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+
+    section{
+        margin-bottom: 50px;
+    }
+
+    section h1{
+        font-size: 30px;
+        margin-top: -80px;
     }
 }

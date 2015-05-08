@@ -42,6 +42,8 @@ if(isset($_POST['submit']))
 <head>
 	<meta charset="UTF-8">
 	<title>connexion</title>
+
+    <link rel="stylesheet" href="styles/connexion.css"/>
 </head>
 <body>
 
